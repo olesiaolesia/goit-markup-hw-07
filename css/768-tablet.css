@@ -1,0 +1,29 @@
+/* 768px */
+
+/* ==========FEATURES========== */
+
+@media screen and ( min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+
+    .section-subtitle {
+        text-align: left;
+
+    }
+
+    .features-list {
+        display: flex;
+        column-gap: 24px;
+        flex-wrap: wrap;
+    }
+
+    .features-item {
+        flex-basis: calc((100% - 24px)/2);
+    }
+
+    } 
+    
+    
+
+

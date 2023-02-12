@@ -1,0 +1,59 @@
+/* 1200 */
+
+
+/* ==========FEATURES========== */
+
+@media screen and ( min-width: 1200px) {
+    .container {
+        width: 1158px;
+        padding: 0 15px;
+    }
+
+    .features {
+        padding-bottom: 0px;
+    }
+
+    .section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .section-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        text-transform: none;
+    }
+    .section-text {
+        line-height: 1.5;
+        font-weight: 400;
+    }
+
+    
+
+    .features-list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .features-icon-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8px;
+        background-color: var(--light-bgc);
+        border-radius: 4px;
+        height: 112px;
+    } 
+
+    .features-icon {
+        width: 64px;
+        height: 64px;
+    }
+
+    .features-item {
+    flex-basis: calc((100% - 3*24px)/4);
+
+}
+
+}
