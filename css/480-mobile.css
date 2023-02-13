@@ -10,14 +10,15 @@
 }
  */
 
- /* ==========FEATURES========== */
+ 
 
  @media screen and ( min-width: 480px) {
+
+    /* ==========FEATURES========== */
+
     .container {
         width: 480px; 
         padding: 0 16px;
-        
-
     }
 
     .section-subtitle {
@@ -29,6 +30,6 @@
      
     }
 
-
+/* ========== EXAMPLES ========== */
     
 }

@@ -279,6 +279,7 @@ button {
     display: none;
     
 
+
     /*display:flex;
     justify-content: center;
     align-items: center;
@@ -286,6 +287,11 @@ button {
     background-color: var(--light-bgc);
     border-radius: 4px;
     height: 112px; */
+}
+
+
+.features-list {
+    
 }
 /* .features-icon {
     width: 64px;
@@ -308,14 +314,15 @@ button {
 /* ========== EXAMPLES ========== */
 
 .examples {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    display: none;
+    /* padding-top: 120px;
+    padding-bottom: 120px; */
 }
 
 .examples-list {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    gap: 24px;
+    gap: 24px; */
 }
 
 /* ========== OUR TEAM ========== */
