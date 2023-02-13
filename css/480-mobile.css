@@ -1,35 +1,35 @@
 /* 480 */
 
 /* ==========HERO========== */
-/* 
-@media screen and ( min-width: 480px) {
-    .container {
-        min-width: 480px; 
-
-    }
-}
- */
-
- 
 
  @media screen and ( min-width: 480px) {
 
+    .container {
+        /* width: 100%;  */
+        padding: 0 16px;
+        width: 480px;
+        
+    }
+
     /* ==========FEATURES========== */
 
-    .container {
-        width: 480px; 
-        padding: 0 16px;
-    }
-
     .section-subtitle {
+        font-weight: 700;
         font-size: 36px;
-
-    }
-
-    .section-text {
-     
+        line-height: 1.1;
+        
     }
 
 /* ========== EXAMPLES ========== */
     
-}
+
+/* ========== OUR TEAM ========== */
+
+    .container-mini {
+        width: 264px;
+        margin: 0 auto;
+    }
+
+
+
+ }

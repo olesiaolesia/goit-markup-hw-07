@@ -63,10 +63,12 @@ button {
 
 .container {
     /* width: 1158px; */
-    width: 320px;
+    /* width: 320px; */
+    width: 100%;
     /* padding: 0 15px; */
     padding: 0 10px;
     margin: 0 auto;
+    outline: 1px solid red;
     
 }
 
@@ -75,6 +77,7 @@ button {
     padding-bottom: 120px; */
     padding-top: 96px;
     padding-bottom: 96px;
+    outline: 1px solid blue;
 }
 
 .section-title {
@@ -88,10 +91,13 @@ button {
 }
 
 .section-subtitle {
-    font-size: 30px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
+    /* font-size: 30px;
+    line-height: 1.11; */
     text-transform: capitalize;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--secondary-color);
     margin-bottom: 8px;
     text-align: center;
@@ -274,66 +280,55 @@ button {
 }
 
 
-
 .features-icon-list {
     display: none;
-    
-
-
-    /*display:flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 8px;
-    background-color: var(--light-bgc);
-    border-radius: 4px;
-    height: 112px; */
 }
 
 
 .features-list {
-    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px;
 }
-/* .features-icon {
-    width: 64px;
-    height: 64px;
-} */
-
-
 
 .features-item {
     width: 100%;
 }
 
 .features-item:not(:last-child) {
-        margin-bottom: 72px;
-    /* flex-basis: calc((100% - 3*24px)/4); */
+     
 }
-
 
 
 /* ========== EXAMPLES ========== */
 
 .examples {
     display: none;
-    /* padding-top: 120px;
-    padding-bottom: 120px; */
 }
 
 .examples-list {
-    /* display: flex;
-    justify-content: space-between;
-    gap: 24px; */
+
 }
 
 /* ========== OUR TEAM ========== */
 
+.container-mini {
+    width: 264px;
+    padding: 0 0;
+    margin: 0 auto;
+
+}
+
 .team {
     background-color: var(--light-bgc);
+    padding-bottom: 128px;
 }
 
 .team-list {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 72px;
+
 }
 
 .team-item {
@@ -341,6 +336,24 @@ button {
    text-align: center; 
    box-shadow: var(--shadow-color);
 }
+
+.team-section-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+    margin-bottom: 8px;
+}
+
+.team-section-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--paragraph-color);
+}
+
 
 .team-description {
     padding: 32px 16px;

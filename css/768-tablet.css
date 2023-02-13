@@ -1,25 +1,19 @@
 /* 768px */
 
-
-
 @media screen and ( min-width: 768px) {
 
-    /* ==========FEATURES========== */
-
-    
-    .container {
+     .container {
         width: 768px;
     }
 
+    /* ==========FEATURES========== */
+
     .section-subtitle {
         text-align: left;
-
     }
-
+    
     .features-list {
-        display: flex;
         column-gap: 24px;
-        flex-wrap: wrap;
     }
 
     .features-item {
@@ -27,11 +21,29 @@
         margin-bottom: 0px;
     }
 
-
     /* ========== EXAMPLES ========== */
 
-    } 
+
+    /* ========== OUR TEAM ========== */
+
+    .container-mini {
+        width: 552px;   
+    }
     
+    .team {
+        padding-bottom: 104px; 
+    }
+
+    .team-list {
+        column-gap: 24px;
+        row-gap: 64px;
+    }
+
+    .team-item {
+        flex-basis: calc((100% - 24px)/2);
+    }
+
+}
     
 
 
