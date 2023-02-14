@@ -393,19 +393,25 @@ button {
 /* ========== CUSTOMERS ========== */
 
 .customers {
-    padding-top: 130px;
-    padding-bottom: 120px;
+    /* padding-top: 130px;
+    padding-bottom: 120px; */
+
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .customers-list {
     display: flex;
-    justify-content: center;
-    gap: 24px;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 72px;
+    /* gap: 24px; */
     margin-top: 72px;
-
 }
+
 .customers-item {
-    width: calc((100% - 120px) / 6);
+    width: calc((100% - 16px) / 2);
     height: 88px;
 }
 
