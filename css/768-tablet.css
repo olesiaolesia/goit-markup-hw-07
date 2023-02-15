@@ -66,11 +66,47 @@
 
 
     /* ========== FOOTER ========== */
+    .footer-container {
+        row-gap: 72px;
+        column-gap: 24px;
+        justify-content: start;
+    }
+
+    .footer-logo {
+        justify-content: left;
+
+    }
+
+    .footer-title {
+        text-align: left;
+    }
 
 
     /* ========== FOOTER FORM ========== */
 
+    
+    .footer-form {
+        margin-left: 108px;
+    }
 
+    .footer-subscribe-field {
+        justify-content: left;
+    }
+
+    .footer-subscribe-input {
+        width: 264px;
+
+    }
+
+    .footer-subscribe-form {
+        justify-content: left;
+        gap: 24px;
+    }
+
+    .footer-left-side {
+        margin-left: 108px;
+    }
 
 
 }
+

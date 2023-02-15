@@ -64,7 +64,7 @@ button {
 .container {
     /* width: 1158px; */
     /* width: 320px; */
-    width: 100%;
+    width: 320px;
     /* padding: 0 15px; */
     padding: 0 10px;
     margin: 0 auto;
@@ -279,11 +279,9 @@ button {
     padding-bottom: 96px;
 }
 
-
 .features-icon-list {
     display: none;
 }
-
 
 .features-list {
     display: flex;
@@ -437,17 +435,13 @@ button {
     background-color: var(--secondary-color);
     padding-top: 96px;
     padding-bottom: 96px;
-
-    /* padding-top: 100px;
-    padding-bottom: 100px; */
 }
 
 .footer-container {
     display: flex;
     flex-wrap: wrap;
     gap: 72px;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 
 .footer-logo {
@@ -458,7 +452,7 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--secondary-accent-color);
-    
+    justify-content: center;
     
     display: flex;
     justify-content: center;
@@ -472,6 +466,8 @@ button {
     color: var(--primary-accent-color);
     margin-top: 16px;
     width: 268px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .footer-soc {
@@ -484,10 +480,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-color);
-    
-
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .footer-soc-list {
@@ -524,24 +517,12 @@ button {
 /* ========== FOOTER FORM ========== */
 
 
-.footer-form {
-    /* margin-left: 80px; */
-    /* display: flex;
-    flex-wrap: wrap;
-    gap: 20px; */
-
-
-}
-
 .footer-subscribe-form {
-    margin: 0 auto;
     margin-top: 16px;
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
-    justify-content: center;
-
-    
+    justify-content: center;    
 }
 
 .footer-subscribe-input {
@@ -565,14 +546,11 @@ button {
 }
 
 .footer-btn {
-    display: flex;
-    justify-content: space-between;
     position: relative;
 }
 
 .footer-subscribe-btn {
-    min-width: 165px;
-    /* min-width: 300px; */
+    min-width: 155px;
     letter-spacing: 0.04em;
     color: var(--primary-color);
     background: var(--secondary-accent-color);
@@ -580,9 +558,10 @@ button {
     border: none;
     display: inline-flex;
     gap: 16px;
-    align-items: center;
-    padding: 8px 24px;
-    
+    padding: 8px 20px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.5;    
 }
 
 .footer-subscribe-icon {
