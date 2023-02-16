@@ -1,6 +1,6 @@
 /* 480 */
 
-/* ==========HERO========== */
+
 
  @media screen and ( min-width: 480px) {
 
@@ -10,6 +10,17 @@
         width: 428px;
         
     }
+
+    /* ==========HERO========== */
+    .hero-title {
+        font-size: 36px;
+    }
+
+
+
+
+
+
 
     /* ==========FEATURES========== */
 

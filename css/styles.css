@@ -230,10 +230,10 @@ button {
 /* ==========HERO========== */
 
 .hero {
-    /* max-width: 1440px; */
+    max-width: 1440px;
     background-color: var(--secondary-color);
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 112px;
+    padding-bottom: 108px;
     text-align: center;
     background-image: 
     linear-gradient(var(--overlay), var(--overlay)),
@@ -246,8 +246,8 @@ button {
 
 .hero-title {
     max-width: 500px;
-    font-size: 56px;
-    line-height: 1.07;
+    font-size: 30px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--primary-color);
     margin-left: auto;
@@ -260,7 +260,7 @@ button {
     letter-spacing: 0.04em;
     color: var(--primary-color);
     background-color: var(--secondary-accent-color);
-    margin-top: 48px;
+    margin-top: 72px;
     border-radius: 4px;
     padding: 16px 32px;
     border: none;

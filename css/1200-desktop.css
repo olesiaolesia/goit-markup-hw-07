@@ -2,16 +2,40 @@
 
 @media screen and ( min-width: 1200px) {
 
- .container {
-    width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
+    .container {
+        width: 1158px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
 
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
+    .section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+
+/* ==========HERO========== */
+
+    .hero {
+        padding-top: 188px;
+        padding-bottom: 188px;
+    }
+
+
+    .hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+    }
+
+    .hero-btn {
+        margin-top: 48px;
+    }
+
+
+
+
+
+
 
 /* ==========FEATURES========== */    
 
