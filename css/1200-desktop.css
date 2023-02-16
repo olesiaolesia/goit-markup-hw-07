@@ -183,4 +183,28 @@
         letter-spacing: 0.04em;
         margin-left: 24px;
     }
+
+/* ========== MODAL WINDOW ========== */
+
+.modal {
+    min-height: 584px;
+    padding: 72px 24px 24px;
+}
+
+.modal-close {
+    top: 24px;
+    right: 24px;
+}   
+
+
+
+/* ========== MODAL FORM ========== */
+
+
+
+
+
+
+
+
 }

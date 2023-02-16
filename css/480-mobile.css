@@ -59,6 +59,28 @@
         min-width: 165px;
         padding: 8px 24px;
     }
+
+/* ========== MODAL WINDOW ========== */
+    .modal {
+        width: 392px;
+        
+    }
+
+    .modal-close {
+        top: 24px;
+        right: 24px;
+    }
+
+
+/* ========== MODAL FORM ========== */
+
+
+
+
+
+
+
+
  }
 
  

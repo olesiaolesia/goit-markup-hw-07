@@ -116,6 +116,21 @@
         margin-left: 108px;
     }
 
+/* ========== MODAL WINDOW ========== */
 
+.modal {
+    width: 408px;
+    min-height: 586px;
+    padding: 72px 25px 24px 23px;
 }
 
+.modal-close {
+    top: 24px;
+    right: 24px;
+}   
+/* ========== MODAL FORM ========== */
+
+
+
+
+}

@@ -586,7 +586,7 @@ button {
 }
 
 .modal {
-    width: 408px;
+    width: 300px;
     min-height: 584px;
     background-color: #FCFCFC; 
     box-shadow: 
@@ -598,7 +598,7 @@ button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 72px 24px 24px;
+    padding: 72px 16px 24px;
 }
 
 .backdrop.is-hidden {
@@ -617,8 +617,8 @@ button {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 24px;
-    right: 24px;
+    top: 20px;
+    right: 20px;
     transition: background-color var(--transition-durat-and-funct);
 }
 
