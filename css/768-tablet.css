@@ -6,6 +6,52 @@
         width: 768px;
     }
 
+    /* ==========HEADER========== */
+
+    .menu-list {
+        display: flex;
+        align-items: center;
+        gap:40px;
+    }
+    
+.menu-link {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+    transition: color var(--transition-durat-and-funct);
+
+}
+
+.menu-link:hover,
+.menu-link:active,
+.menu-link:focus {
+    color: var(--active-color);
+} 
+
+/* ==========CONTACTS========== */
+
+.header-contacts {
+    display: flex;
+    gap: 40px;
+}
+
+.contacts-link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--paragraph-color);
+    transition: color var(--transition-durat-and-funct);
+}
+
+.contacts-link:hover,
+.contacts-link:active,
+.contacts-link:focus {
+    color: var(--active-color);
+} 
+
+
+
+
     /* ==========HERO========== */
     .hero-title {
         font-size: 56px;
