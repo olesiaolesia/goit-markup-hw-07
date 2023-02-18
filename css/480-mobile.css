@@ -20,6 +20,58 @@
     }
 
 
+     /* ==========HERO========== */
+
+
+    .hero {
+        min-width: 100%;
+        padding-bottom: 112px;
+        background-image: 
+        linear-gradient(var(--overlay), var(--overlay)),
+        url(../images/hero/hero-bcg-tablet.jpg);
+        background-size: contain;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .hero {        
+                background-image: 
+                linear-gradient(var(--overlay), var(--overlay)),
+                url(../images/hero/hero-bcg-tablet-2x.jpg);
+        }
+    }
+
+
+
+
+
+
+    /* @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: 
+                linear-gradient(var(--overlay), var(--overlay)),
+                url(../images/hero/hero-bcg-tablet-2x.jpg);
+        }
+    } */
+
+    .hero-title {
+        max-width: 320px;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: var(--primary-color);
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .hero-cap-let {
+        text-transform: capitalize;
+        white-space: pre;
+    }
 
     /* ==========MOB MENU========== */
 

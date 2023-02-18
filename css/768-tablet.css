@@ -93,6 +93,24 @@
 } 
 
     /* ==========HERO========== */
+
+    .hero {
+        background-image: 
+            linear-gradient(var(--overlay), var(--overlay)),
+            url(../images/hero/hero-bcg.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: 
+                linear-gradient(var(--overlay), var(--overlay)),
+                url(../images/hero/hero-bcg-2x.jpg);
+        }
+}
+
+
     .hero-title {
         font-size: 56px;
         line-height: 1.07;

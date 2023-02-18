@@ -324,18 +324,30 @@ color: var(--paragraph-color);
 /* ==========HERO========== */
 
 .hero {
-    max-width: 1440px;
+    /* max-width: 1440px; */
+    min-width: 100%;
     background-color: var(--secondary-color);
     padding-top: 112px;
     padding-bottom: 108px;
     text-align: center;
     background-image: 
     linear-gradient(var(--overlay), var(--overlay)),
-    url(../images/hero/hero-bcg.jpg);
+    url(../images/hero/hero-bcg-mob.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    /* background-size: contain; */
+    background-size: cover;
     background-position: center;
     margin: 0 auto;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .hero {        
+        background-image: 
+        linear-gradient(var(--overlay), var(--overlay)),
+        url(../images/hero/hero-bcg-mob-2x.jpg);
+  }
 }
 
 .hero-title {
