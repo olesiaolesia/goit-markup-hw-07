@@ -11,6 +11,59 @@
         
     }
 
+    /* ==========HEADER========== */
+
+
+    .header {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+
+
+    /* ==========MOB MENU========== */
+
+    .mob-menu {
+        padding-top: 80px;
+    }
+
+
+    .mob-menu-close-btn {
+        top: 40px;
+        right: 40px;
+    }
+
+    .mob-menu >.container {
+        padding: 0 40px;
+    }
+
+
+    .mob-menu-item:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
+    .mob-menu-active {
+        font-size: 36px;
+    }
+
+    .mob-menu-list {
+        /* margin-bottom: 80px; */
+    }
+
+    .mob-menu-link {
+        font-size: 36px;
+    }
+
+    .mob-tel-link {
+        font-size: 36px;
+    }
+
+    .mob-soc-list {
+        margin-top: 48px;
+        gap: 56px;
+    }
+
+
     /* ==========HERO========== */
     .hero-title {
         font-size: 36px;
@@ -63,6 +116,7 @@
 /* ========== MODAL WINDOW ========== */
     .modal {
         width: 392px;
+        min-height: 586px;
         
     }
 
@@ -74,10 +128,24 @@
 
 /* ========== MODAL FORM ========== */
 
+.modal-title {
+    font-size: 16px;
+}
 
+.modal-form-check-text::before {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
 
+.modal-form-check-text {
+    font-size: 12px;
+}
 
-
+.modal-form-submit {
+    min-width: 169px;
+    padding: 16px 32px;
+}
 
 
 

@@ -8,6 +8,14 @@
 
     /* ==========HEADER========== */
 
+    .header {
+        /* height: 70px; */
+    }
+
+    .header-nav {
+        align-items: center;
+    }
+
     .menu-list {
         display: flex;
         align-items: center;
@@ -29,16 +37,51 @@
     color: var(--active-color);
 } 
 
+.menu-open-btn {
+    display: none;
+}
+
+.menu-active {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-accent-color);
+    margin-bottom: 18px;
+
+}
+
+.current {
+    color: var(--active-color);
+    position: relative;
+}
+
+.current::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -28px;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--active-color);
+}
+
+
+
 /* ==========CONTACTS========== */
 
 .header-contacts {
     display: flex;
-    gap: 40px;
+    gap: 4px;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .contacts-link {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
     color: var(--paragraph-color);
     transition: color var(--transition-durat-and-funct);
 }
@@ -48,9 +91,6 @@
 .contacts-link:focus {
     color: var(--active-color);
 } 
-
-
-
 
     /* ==========HERO========== */
     .hero-title {
@@ -170,11 +210,10 @@
     padding: 72px 25px 24px 23px;
 }
 
-.modal-close {
-    top: 24px;
-    right: 24px;
-}   
 /* ========== MODAL FORM ========== */
+.modal-title {
+    margin-bottom: 16px;
+}
 
 
 

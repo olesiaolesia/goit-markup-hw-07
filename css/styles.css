@@ -68,7 +68,7 @@ button {
     /* padding: 0 15px; */
     padding: 0 10px;
     margin: 0 auto;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     
 }
 
@@ -110,34 +110,6 @@ button {
     color: var(--paragraph-color);
 }
 
-
-    
-
-.menu-active {
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--secondary-accent-color);
-    margin-bottom: 24px;
-
-}
-
-.current {
-    color: var(--active-color);
-    position: relative;
-}
-
- .menu-list > .current::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -28px;
-    width: 100%;
-    height: 4px;
-    border-radius: 2px;
-    background-color: var(--active-color);
-}
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -154,15 +126,15 @@ button {
 /* ==========HEADER========== */
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-bottom: 1px solid var(--primary-accent-color);
     box-shadow: var(--shadow-color);
 }
 
 .header-container {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .header-nav {
@@ -198,20 +170,26 @@ button {
 .menu-open-btn {
     border: none;
     background-color: var(--primary-color);
-
+    cursor: pointer;
 }
 /* ==========MOB MENU========== */
 
 .mob-menu {
     width: 100%;
-    /* height: 100%; */
     height: 100vh;
     position:fixed;
     top: 0;
-    /* background-color: green; */
+    background-color: #FFFFFF;
     z-index: 1;
     padding-top: 40px;
     padding-bottom: 40px;
+    opacity: 1;
+}
+
+.mob-menu.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;  
 }
 
 .mob-menu >.container {
@@ -220,25 +198,26 @@ button {
     flex-direction: column;
     justify-content:space-between;
     overflow: auto;
+    padding: 0 20px;
+
 }
 
 .container {
-    padding: 30px;
+    /* padding: 30px; */
     
 }
 .mob-menu-close-btn {
-    
-     width: 24px;
-        height: 24px;
-        border-radius: 50%;
-        background-color: var(--primary-accent-color);
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        top: 10px;
-        right: 10px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: var(--primary-accent-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
     transition: background-color var(--transition-durat-and-funct);
 }
 
@@ -266,6 +245,7 @@ button {
 
 .current {
 }
+
 .mob-menu-link {
     font-weight: 700;
     font-size: 30px;
@@ -304,7 +284,6 @@ color: var(--paragraph-color);
 .mob-soc-list {
     margin-top: 40px;
     display: flex;
-    
     gap: 30px;
 
 }
@@ -321,6 +300,7 @@ color: var(--paragraph-color);
     align-items: center;
     border-radius: 50%;
     transition: background-color var(--transition-durat-and-funct);
+    padding: 8px;
 }
 .mob-soc-icon {
     fill: var(--light-bgc);
@@ -745,6 +725,7 @@ color: var(--paragraph-color);
 
 .modal-title {
     font-weight: 500;
+    font-size: 12px;
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
@@ -835,7 +816,7 @@ color: var(--paragraph-color);
 .modal-form-check-text {
     display: flex;
     align-items: center;
-    font-size: 12px;
+    font-size: 9px;
     line-height: 1.33;
     letter-spacing: 0.04em;
     color: #757575;
@@ -846,11 +827,11 @@ color: var(--paragraph-color);
     display: block;
     border: 1.25px solid var(--secondary-color);
     border-radius: 2px;
-    width: 16px;
-    height: 16px;
+    width: 10px;
+    height: 10px;
     content: '';
     cursor: pointer;
-    margin-right: 8px;
+    margin-right: 6px;
 }
 
 .modal-form-check:checked + .modal-form-check-text::before {
@@ -869,7 +850,7 @@ color: var(--paragraph-color);
 }
 
 .modal-form-submit {
-    min-width: 169px;
+    min-width: 160px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -879,7 +860,7 @@ color: var(--paragraph-color);
     border: none;
     border-radius: 4px;
     
-    padding: 16px 32px;
+    padding: 13px 32px;
     align-self: center;
     transition: background-color outline var(--transition-durat-and-funct);
 }

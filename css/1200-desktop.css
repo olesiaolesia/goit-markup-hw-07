@@ -14,6 +14,51 @@
     }
 
 
+/* ==========HEADER========== */
+
+    .header {
+        padding-top: 24px;
+        padding-bottom: 28px;
+    }
+
+    .header-container {
+        /* display: flex;
+        align-items: center; */
+    }
+
+    .header-nav {
+        display: flex;
+        /* align-items: center; */
+        margin-right: auto;
+    }
+    
+    .header-logo {
+        margin-right: 76px;
+    }
+
+    .current::after {
+        bottom: -32px;
+    }
+
+ /* ==========CONTACTS========== */
+
+ .header-contacts {
+    /* display: flex; */
+    flex-wrap: nowrap;
+    gap: 40px;
+    flex-direction: row;
+}
+
+.contacts-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+
+
+
 /* ==========HERO========== */
 
     .hero {
@@ -191,15 +236,11 @@
     padding: 72px 24px 24px;
 }
 
-.modal-close {
-    top: 24px;
-    right: 24px;
-}   
-
-
-
 /* ========== MODAL FORM ========== */
 
+.modal {
+    padding: 72px 24px;
+}
 
 
 
