@@ -21,11 +21,6 @@
         padding-bottom: 28px;
     }
 
-    .header-container {
-        /* display: flex;
-        align-items: center; */
-    }
-
     .header-nav {
         display: flex;
         margin-right: auto;
@@ -124,7 +119,7 @@
     /* ========== EXAMPLES ========== */
 
     .examples {
-        display: flex; 
+        display: block; 
     }
     
     .examples-list {
@@ -236,7 +231,6 @@
     }
 
     .filter-list {
-        /* display: block; */
         width: 100%;
         margin-bottom: 72px;
         justify-content: center;

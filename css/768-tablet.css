@@ -19,7 +19,7 @@
     .menu-list {
         display: flex;
         align-items: center;
-        gap:40px;
+        gap: 40px;
     }
     
     .menu-link {
@@ -37,6 +37,10 @@
     } 
 
     .menu-open-btn {
+        display: none;
+    }
+
+    .mob-menu {
         display: none;
     }
 
@@ -88,10 +92,11 @@
         color: var(--active-color);
     } 
 
+    
+
 /* ==========HERO========== */
 
     .hero {
-        min-width: 100%;
         padding-bottom: 108px;
         background-image: 
             linear-gradient(var(--overlay), var(--overlay)),
@@ -141,10 +146,6 @@
 
 
     /* ========== OUR TEAM ========== */
-
-    .container-mini {
-        width: 552px;   
-    }
     
     .team {
         padding-bottom: 104px; 
@@ -153,27 +154,25 @@
     .team-list {
         column-gap: 24px;
         row-gap: 64px;
+        justify-content: center;
     }
 
     .team-item {
-        flex-basis: calc((100% - 24px)/2);
+        flex-basis: calc((100% - 584px) /2 );
     }
 
     /* ========== CUSTOMERS ========== */
-
-    .container-mini {
-        width: 552px;
-    }
 
     .customers-list {
         display: flex;
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 72px;
+        justify-content: center;
     }
     
     .customers-item {
-        width: calc((100% - (24px * 2)) / 3);
+        width: calc((100% - 234px) / 3);
         height: 88px;
     }
 
