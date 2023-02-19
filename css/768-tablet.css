@@ -218,17 +218,52 @@
 
 /* ========== MODAL WINDOW ========== */
 
-.modal {
-    width: 408px;
-    min-height: 586px;
-    padding: 72px 25px 24px 23px;
-}
+    .modal {
+        width: 408px;
+        min-height: 586px;
+        padding: 72px 25px 24px 23px;
+    }
 
 /* ========== MODAL FORM ========== */
 
-.modal-title {
-    margin-bottom: 16px;
-}
+    .modal-title {
+        margin-bottom: 16px;
+    }
+
+/* ========== PORTFOLIO ========== */
+/* ========== FILTER ========== */
+
+    .filter {
+        padding-top: 64px;
+        padding-bottom: 96px;
+    }
+
+    .filter-btn {
+        padding: 12px 24px;
+    }
+
+    .filter-list {
+        width: 100%;
+        gap: 24px;
+        flex-wrap: nowrap;
+        margin-bottom: 64px;
+        justify-content: center;
+    }
+
+/* ========== SECTION ========== */
+
+    .section-item {
+        display: flex;
+        flex-basis: calc((100% - 24px)/2);
+    }
+
+    .section-list {
+        justify-content: start;
+    }
+
+    .section-discription >.section-subtitle {
+        font-weight: 500;
+    }
 
 
 }

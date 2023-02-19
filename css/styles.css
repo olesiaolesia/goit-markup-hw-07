@@ -244,11 +244,11 @@ button {
 }
 
 .mob-mail-link {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--paragraph-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--paragraph-color);
 }
 
 .mob-soc-list {
@@ -845,17 +845,21 @@ color: var(--paragraph-color);
 }
 
 
+/* ========== PORTFOLIO ========== */
 /* ========== FILTER ========== */
 
 .filter {
-    padding-top: 96px;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 .filter-list {
     display: flex;
-    justify-content: center;
-    margin-bottom: 72px;
-    gap: 24px;
+    justify-content: left;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    column-gap: 24px;
+    margin-bottom: 48px;
 }
 
 .filter-btn {
@@ -867,7 +871,7 @@ color: var(--paragraph-color);
     color: var(--secondary-accent-color);
     border-radius: 4px;
     border: 1px solid var(--primary-accent-color);
-    padding: 12px 24px;
+    padding: 8px 16px;
     transition: 
     background-color var(--transition-durat-and-funct), 
     color var(--transition-durat-and-funct), 
@@ -885,6 +889,11 @@ color: var(--paragraph-color);
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+.filter-current {
+    background-color: var(--active-color);
+    color: var(--primary-color);
+}
+
 /* ========== SECTION ========== */
 
 .section-list {
@@ -892,11 +901,7 @@ color: var(--paragraph-color);
     column-gap: 24px;
     row-gap: 48px;
     flex-wrap: wrap;
-}
-
-.section-item {
-    display: flex;
-    flex-basis: calc((100% - 2*24px)/3);
+    justify-content: center;
 }
 
 .section-link {
@@ -906,36 +911,18 @@ color: var(--paragraph-color);
     transition: box-shadow var(--transition-durat-and-funct);
 }
 
-.section-link:is(:hover, :focus) .overlay {
-    transform: translate(0, 0);
-}
-
-.section-link:hover,
-.section-link:focus {
-    box-shadow: var(--shadow-color);
-}
-
 .section-discription{
     padding-top: 32px ;
     padding-bottom: 32px;
     padding-left: 16px;
 }
 
-.section-link-overlay {
-    position: relative;
-    overflow: hidden;
+.section-discription >.section-subtitle {
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: left;
 }
 
 .overlay {
-    color: var(--light-bgc);
-    background-color: var(--secondary-accent-color);
-    padding: 40px 32px 164px;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    transform: translate(0, 100%);
-    transition: transform var(--transition-durat-and-funct);
+    display: none;
 }
-

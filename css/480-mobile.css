@@ -14,9 +14,7 @@
         padding-bottom: 24px;
     }
 
-
      /* ==========HERO========== */
-
 
     .hero {
         padding-bottom: 112px;
@@ -128,25 +126,42 @@
 
 /* ========== MODAL FORM ========== */
 
-.modal-title {
-    font-size: 16px;
-}
+    .modal-title {
+        font-size: 16px;
+    }
 
-.modal-form-check-text::before {
-    width: 16px;
-    height: 16px;
-    margin-right: 8px;
-}
+    .modal-form-check-text::before {
+        width: 16px;
+        height: 16px;
+        margin-right: 8px;
+    }
 
-.modal-form-check-text {
-    font-size: 12px;
-}
+    .modal-form-check-text {
+        font-size: 12px;
+    }
 
-.modal-form-submit {
-    min-width: 169px;
-    padding: 16px 32px;
-}
+    .modal-form-submit {
+        min-width: 169px;
+        padding: 16px 32px;
+    }
 
+/* ========== PORTFOLIO ========== */
+/* ========== FILTER ========== */
+
+    .filter-list {
+        width: 270px;
+    }
+
+/* ========== SECTION ========== */
+
+    .section-discription >.section-subtitle {
+        font-weight: 700;
+        font-size: 20px;   
+    }
+
+    .section-discription >.section-text {
+        font-weight: 400;
+    }
 
  }
 
