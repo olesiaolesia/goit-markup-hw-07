@@ -62,22 +62,16 @@ button {
 /* ==========COMPONENTS========== */
 
 .container {
-    /* width: 1158px; */
-    /* width: 320px; */
     width: 320px;
-    /* padding: 0 15px; */
     padding: 0 10px;
     margin: 0 auto;
-    outline: 1px solid red;
-    
+    /* outline: 1px solid red;     */
 }
 
 .section {
-    /* padding-top: 120px;
-    padding-bottom: 120px; */
     padding-top: 96px;
     padding-bottom: 96px;
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
 }
 
 .section-title {
@@ -91,8 +85,6 @@ button {
 }
 
 .section-subtitle {
-    /* font-size: 30px;
-    line-height: 1.11; */
     text-transform: capitalize;
     font-weight: 500;
     font-size: 25px;
@@ -134,7 +126,6 @@ button {
 
 .header-container {
     display: flex;
-    /* align-items: center; */
 }
 
 .header-nav {
@@ -145,7 +136,6 @@ button {
 
 .menu-list {
     display: none;
-    
 }
 
 .header-logo {
@@ -172,6 +162,7 @@ button {
     background-color: var(--primary-color);
     cursor: pointer;
 }
+
 /* ==========MOB MENU========== */
 
 .mob-menu {
@@ -199,13 +190,8 @@ button {
     justify-content:space-between;
     overflow: auto;
     padding: 0 20px;
-
 }
 
-.container {
-    /* padding: 30px; */
-    
-}
 .mob-menu-close-btn {
     width: 24px;
     height: 24px;
@@ -221,15 +207,10 @@ button {
     transition: background-color var(--transition-durat-and-funct);
 }
 
-.modal-close-btn-icon {
-    
-    
+.mob-menu-list {
+    margin-bottom: 20px; 
 }
 
-.mob-menu-list {
-    margin-bottom: 20px;
-    
-}
 .mob-menu-item:not(:last-child) {
     margin-bottom: 35px;
 }
@@ -243,9 +224,6 @@ button {
     color: var(--active-color);
 }
 
-.current {
-}
-
 .mob-menu-link {
     font-weight: 700;
     font-size: 30px;
@@ -253,12 +231,6 @@ button {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--secondary-color);
-
-}
-.mob-menu-contacts {
-
-}
-.mob-menu-contacts-item {
 }
 
 .mob-tel-link {
@@ -269,7 +241,6 @@ button {
     color: var(--secondary-accent-color);
     margin-bottom: 35px;
     display: block;
-
 }
 
 .mob-mail-link {
@@ -280,17 +251,17 @@ letter-spacing: 0.02em;
 color: var(--paragraph-color);
 }
 
-
 .mob-soc-list {
     margin-top: 40px;
     display: flex;
     gap: 30px;
-
 }
+
 .mob-soc-item {
     width: 40px;
     height: 40px;
 }
+
 .mob-soc-link {
     width: 100%;
     height: 100%;
@@ -302,6 +273,7 @@ color: var(--paragraph-color);
     transition: background-color var(--transition-durat-and-funct);
     padding: 8px;
 }
+
 .mob-soc-icon {
     fill: var(--light-bgc);
 }
@@ -317,14 +289,12 @@ color: var(--paragraph-color);
     border: none;
     background-color: #fff;
     text-align: center;
-    
 }
 
 
 /* ==========HERO========== */
 
 .hero {
-    /* max-width: 1440px; */
     min-width: 100%;
     background-color: var(--secondary-color);
     padding-top: 112px;
@@ -334,7 +304,6 @@ color: var(--paragraph-color);
     linear-gradient(var(--overlay), var(--overlay)),
     url(../images/hero/hero-bcg-mob.jpg);
     background-repeat: no-repeat;
-    /* background-size: contain; */
     background-size: cover;
     background-position: center;
     margin: 0 auto;
@@ -350,6 +319,7 @@ color: var(--paragraph-color);
   }
 }
 
+
 .hero-title {
     max-width: 500px;
     font-size: 30px;
@@ -358,6 +328,10 @@ color: var(--paragraph-color);
     color: var(--primary-color);
     margin-left: auto;
     margin-right: auto;
+}
+
+.hero-cap-let {
+    text-transform: capitalize;
 }
 
 .hero-btn {
@@ -399,19 +373,11 @@ color: var(--paragraph-color);
     width: 100%;
 }
 
-.features-item:not(:last-child) {
-     
-}
-
 
 /* ========== EXAMPLES ========== */
 
 .examples {
     display: none;
-}
-
-.examples-list {
-
 }
 
 /* ========== OUR TEAM ========== */
@@ -420,7 +386,6 @@ color: var(--paragraph-color);
     width: 264px;
     padding: 0 0;
     margin: 0 auto;
-
 }
 
 .team {
@@ -432,7 +397,6 @@ color: var(--paragraph-color);
     display: flex;
     flex-wrap: wrap;
     gap: 72px;
-
 }
 
 .team-item {
@@ -574,10 +538,6 @@ color: var(--paragraph-color);
     width: 268px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-
-.footer-soc {
-
 }
 
 .footer-title {
@@ -975,7 +935,6 @@ color: var(--paragraph-color);
     position: absolute;
     left: 0;
     top: 0;
-    /* overflow: auto; */
     transform: translate(0, 100%);
     transition: transform var(--transition-durat-and-funct);
 }

@@ -1,18 +1,13 @@
 /* 480 */
 
-
-
  @media screen and ( min-width: 480px) {
 
     .container {
-        /* width: 100%;  */
         padding: 0 16px;
         width: 428px;
-        
     }
 
     /* ==========HEADER========== */
-
 
     .header {
         padding-top: 24px;
@@ -24,12 +19,11 @@
 
 
     .hero {
-        min-width: 100%;
         padding-bottom: 112px;
         background-image: 
         linear-gradient(var(--overlay), var(--overlay)),
         url(../images/hero/hero-bcg-tablet.jpg);
-        background-size: contain;
+        background-size: cover;
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -42,35 +36,10 @@
         }
     }
 
-
-
-
-
-
-    /* @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        .hero {
-            background-image: 
-                linear-gradient(var(--overlay), var(--overlay)),
-                url(../images/hero/hero-bcg-tablet-2x.jpg);
-        }
-    } */
-
     .hero-title {
         max-width: 320px;
+        font-weight: 700;
         font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        color: var(--primary-color);
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-
-    .hero-cap-let {
-        text-transform: capitalize;
-        white-space: pre;
     }
 
     /* ==========MOB MENU========== */
@@ -78,7 +47,6 @@
     .mob-menu {
         padding-top: 80px;
     }
-
 
     .mob-menu-close-btn {
         top: 40px;
@@ -89,17 +57,12 @@
         padding: 0 40px;
     }
 
-
     .mob-menu-item:not(:last-child) {
         margin-bottom: 40px;
     }
 
     .mob-menu-active {
         font-size: 36px;
-    }
-
-    .mob-menu-list {
-        /* margin-bottom: 80px; */
     }
 
     .mob-menu-link {
@@ -115,25 +78,12 @@
         gap: 56px;
     }
 
-
-    /* ==========HERO========== */
-    .hero-title {
-        font-size: 36px;
-    }
-
-
-
-
-
-
-
     /* ==========FEATURES========== */
 
     .section-subtitle {
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.1;
-        
+        line-height: 1.1;  
     }
 
 /* ========== EXAMPLES ========== */
@@ -168,15 +118,13 @@
 /* ========== MODAL WINDOW ========== */
     .modal {
         width: 392px;
-        min-height: 586px;
-        
+        min-height: 586px; 
     }
 
     .modal-close {
         top: 24px;
         right: 24px;
     }
-
 
 /* ========== MODAL FORM ========== */
 
@@ -198,7 +146,6 @@
     min-width: 169px;
     padding: 16px 32px;
 }
-
 
 
  }
